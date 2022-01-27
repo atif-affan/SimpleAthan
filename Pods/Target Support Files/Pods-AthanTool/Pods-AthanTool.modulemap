@@ -1,0 +1,6 @@
+framework module Pods_AthanTool {
+  umbrella header "Pods-AthanTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

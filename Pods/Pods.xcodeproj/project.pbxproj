@@ -1,0 +1,1269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		017B5AC5C47DF8E7D646CA588A0C534F /* Pods-AthanToolTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A484191C58C7A28D0B38211E4E9BA9F /* Pods-AthanToolTests-dummy.m */; };
+		0907ED2981621B18E4DF2F52FC237B5B /* Pods-AthanTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 108557FB307BF3C2A1BEFBCC10E8BE4B /* Pods-AthanTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AE0309281F23A3992C3C57FBA093DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2880987D91506CACD5951D774C713618 /* SunnahTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006B9E738E82126852A5AED2810BD586 /* SunnahTimes.swift */; };
+		2F58248DCA7DDAAC6DBF25AB72C51F7B /* Adhan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D43A70A3C229FE963EA3A1A070D76C /* Adhan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33DE0145DA7030DD98361DAD0B2562AB /* Pods-AthanTool-AthanToolUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0BDD08A6D1E1FFA45AD2336876A9E0 /* Pods-AthanTool-AthanToolUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3AD15647D107F02752014CACDEA9BA08 /* HighLatitudeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 262703F240799386DFD45B8C6A1E44D7 /* HighLatitudeRule.swift */; };
+		3BDDF6D7F2587590C16BF5EBD712CD17 /* CalculationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890A4BCD18C2D18A930908DEBD5F83B7 /* CalculationMethod.swift */; };
+		4BDE7ECAE7414DC24194474FF8ADCDFC /* Pods-AthanTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9701436D86FA3EF05AA56DEB819CD399 /* Pods-AthanTool-dummy.m */; };
+		4E29A0498CD97778789A7F27F45A5124 /* DateUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E3A73D83537AFAC8A445B1443C726E /* DateUtilities.swift */; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 254BD849120419EBF52F313FE963600A /* DropDown+Appearance.swift */; };
+		51CDC30623702395975EC8C36AAB7D7E /* Qibla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6822F9EBC523BF5D0BFB10498DCF06 /* Qibla.swift */; };
+		56DACDECD35B45D01D60291ED886F13D /* CalculationParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D1EBF4333B7E92E1FCBE28C376D32E /* CalculationParameters.swift */; };
+		5A6DCC849E41E0E949FE254A0D53604E /* Pods-AthanToolTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3647B647B2A40C48642F6E52E5A5B3CF /* Pods-AthanToolTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E27E24F34A117E2C179AFC7FC5F553B9 /* DropDownCell.xib */; };
+		6B822FAC134A92A1C8AFA722A91BAEDF /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FCABE498B584768B2D7F983769EC9 /* Coordinates.swift */; };
+		6CCDF8BA9FC363FFB91982D3C635DF08 /* Rouding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B491046BEEC77DAD22B9688C66D96916 /* Rouding.swift */; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6670C13E4A0FFDC1129586A851EB5ADD /* DPDConstants.swift */; };
+		7A953F4CD07401F472BB597586CE0986 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7CE4DE3EFDF072E2D7059C96657A094E /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095FF539042BA5635B020DE58A1653E5 /* Prayer.swift */; };
+		7D0575921FA6F58BF55B928FEF61528A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7E5E873CFB48F72909D76B985F57E182 /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6847C49EEA2C7BF7A0943715798D2AB7 /* Angle.swift */; };
+		8373BAC7F692ADF409BB985E99EE38F4 /* Madhab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E2B4907952813440A2355335BFA8E8 /* Madhab.swift */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE22E29490E90DFF12F9D0896E92216 /* DropDown.swift */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B6B274FB04EEC83EBB1CC0A3E40681 /* DPDKeyboardListener.swift */; };
+		8A29616C11BFFA738B975C2A24CFC247 /* Adhan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A05F19FABF1CB255BDC16F4BA466CC0A /* Adhan-dummy.m */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 206EBEA8B0932AB573E14754BCFEC961 /* DropDown-dummy.m */; };
+		9BD72183D479D4704488D36C26B9E8D4 /* Astronomical.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81782864A8357F838A6FF0CD2C78845 /* Astronomical.swift */; };
+		9EFE34F3C6B2A419F6D1406BFE798087 /* AdhanObjc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4719AB7A8C9B6C978679A4D65EBE8498 /* AdhanObjc.swift */; };
+		A00B437AAF78E400E599197CA3BC00DD /* Pods-AthanTool-AthanToolUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4D218ED424A9D22C03550E4DC653539 /* Pods-AthanTool-AthanToolUITests-dummy.m */; };
+		AF743BFA049FE0ADE61B42EC97946676 /* SolarTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B718B22217EDE66392F36185A278652 /* SolarTime.swift */; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5849DFC98D5D681A2920B27E10214F /* DPDUIView+Extension.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612588406A370C28E4C0119D1F949A39 /* DropDownCell.swift */; };
+		C51E88847910552C75D187B54315A12A /* PrayerTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8658DFDABEAB0FAAEAD9F89256E9D8C2 /* PrayerTimes.swift */; };
+		C7E28792927A849EED556F563FC1B677 /* Minute.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A7AFDA850D833B1CA9A1BD88728230 /* Minute.swift */; };
+		CCE965DC5E028D3DFC29E167D72D52B8 /* Adhan.h in Headers */ = {isa = PBXBuildFile; fileRef = 7643A942AD454BA9597E3029CDA153C4 /* Adhan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE4B72892DAAF2A0A7405EE3B7B2EEB4 /* SolarCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBC728F4611569A5123EB3431E5E337 /* SolarCoordinates.swift */; };
+		DD11195E67AB848595BDDF58D6735382 /* MathUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3480913D01C2B8353FD5A881478F83DE /* MathUtilities.swift */; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD61FEE406CFF7A476927755FD2277F1 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB613E73C66EA6EBDB290F5CD117332 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F7928DF694220E42B1EE0FA2FA7F4D60 /* PrayerAdjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159D50092D6444F6A4E3214B36EB7CE7 /* PrayerAdjustment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D908BA6FAD44E98E249A1074383420E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B1253A540696DA809B405BCB6B5D89;
+			remoteInfo = Adhan;
+		};
+		3A5AC9077E42D3D8C2AAA28C47D717FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 900757526FE4A2BEDDB340ECD38A8D5C;
+			remoteInfo = "Pods-AthanTool";
+		};
+		5EAF436A3928189F9DCCC298DD8301D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		B682BB31F99F68EA7B3DE3D263149DC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		C9751473CE4DBB79AACB4CFD61DF2C83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B1253A540696DA809B405BCB6B5D89;
+			remoteInfo = Adhan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006B9E738E82126852A5AED2810BD586 /* SunnahTimes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SunnahTimes.swift; path = Sources/SunnahTimes.swift; sourceTree = "<group>"; };
+		00B6B274FB04EEC83EBB1CC0A3E40681 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		0400438B9B4FFE3F553FBB1964032E31 /* Pods-AthanTool */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AthanTool"; path = Pods_AthanTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		095FF539042BA5635B020DE58A1653E5 /* Prayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Prayer.swift; path = Sources/Models/Prayer.swift; sourceTree = "<group>"; };
+		0E5849DFC98D5D681A2920B27E10214F /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		108557FB307BF3C2A1BEFBCC10E8BE4B /* Pods-AthanTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AthanTool-umbrella.h"; sourceTree = "<group>"; };
+		10B4EB628F0571A5FF5955388CA62AB5 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		159D50092D6444F6A4E3214B36EB7CE7 /* PrayerAdjustment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrayerAdjustment.swift; path = Sources/Models/PrayerAdjustment.swift; sourceTree = "<group>"; };
+		18CB1E7362220172875D08575F110CDE /* Pods-AthanTool-AthanToolUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AthanTool-AthanToolUITests.modulemap"; sourceTree = "<group>"; };
+		1AE5F532CBF958AF2C9324FB235F671D /* Pods-AthanTool-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AthanTool-frameworks.sh"; sourceTree = "<group>"; };
+		1B718B22217EDE66392F36185A278652 /* SolarTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SolarTime.swift; path = Sources/Astronomy/SolarTime.swift; sourceTree = "<group>"; };
+		1CA0D32487BABE039AD5393692D7D1FD /* Pods-AthanTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AthanTool.debug.xcconfig"; sourceTree = "<group>"; };
+		206EBEA8B0932AB573E14754BCFEC961 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		21D1EBF4333B7E92E1FCBE28C376D32E /* CalculationParameters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalculationParameters.swift; path = Sources/Models/CalculationParameters.swift; sourceTree = "<group>"; };
+		24AC7482B9C604753FA997CA2DDB6528 /* Pods-AthanTool-AthanToolUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AthanTool-AthanToolUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		254BD849120419EBF52F313FE963600A /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		262703F240799386DFD45B8C6A1E44D7 /* HighLatitudeRule.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HighLatitudeRule.swift; path = Sources/Models/HighLatitudeRule.swift; sourceTree = "<group>"; };
+		2949A9980C149970465EC7975A41D41D /* Pods-AthanToolTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AthanToolTests-Info.plist"; sourceTree = "<group>"; };
+		2E12D4D41DEFA7571171DA930DF13DB1 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		340EB13766BDC72F4243E9A3899EE030 /* Pods-AthanTool-AthanToolUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AthanTool-AthanToolUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3480913D01C2B8353FD5A881478F83DE /* MathUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MathUtilities.swift; path = Sources/Extensions/MathUtilities.swift; sourceTree = "<group>"; };
+		3647B647B2A40C48642F6E52E5A5B3CF /* Pods-AthanToolTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AthanToolTests-umbrella.h"; sourceTree = "<group>"; };
+		368BC2234FD7BCCC6664A475B6C94C84 /* Pods-AthanTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AthanTool.modulemap"; sourceTree = "<group>"; };
+		3778D118D789C1348CF2EB5892D2EF13 /* Pods-AthanTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AthanTool-Info.plist"; sourceTree = "<group>"; };
+		40543D87AAC4EF78F876ACD51CE4C077 /* Adhan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Adhan-prefix.pch"; sourceTree = "<group>"; };
+		41D43A70A3C229FE963EA3A1A070D76C /* Adhan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Adhan-umbrella.h"; sourceTree = "<group>"; };
+		425FCABE498B584768B2D7F983769EC9 /* Coordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinates.swift; path = Sources/Models/Coordinates.swift; sourceTree = "<group>"; };
+		4429B90EB17B0BD4430F537EC569FD64 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		4719AB7A8C9B6C978679A4D65EBE8498 /* AdhanObjc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdhanObjc.swift; path = Sources/AdhanObjc.swift; sourceTree = "<group>"; };
+		4F1F24046616618185E7DE26A517E7E0 /* Pods-AthanTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AthanTool.release.xcconfig"; sourceTree = "<group>"; };
+		512AE99AC3050ECDE9F8016995A47736 /* Adhan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adhan.debug.xcconfig; sourceTree = "<group>"; };
+		5A27A013019F673578C5F52674D46D34 /* Pods-AthanTool-AthanToolUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AthanTool-AthanToolUITests-Info.plist"; sourceTree = "<group>"; };
+		5A484191C58C7A28D0B38211E4E9BA9F /* Pods-AthanToolTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AthanToolTests-dummy.m"; sourceTree = "<group>"; };
+		5FCE0F170C9CBA40DCB057E2C1574B0E /* Pods-AthanToolTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AthanToolTests.release.xcconfig"; sourceTree = "<group>"; };
+		612588406A370C28E4C0119D1F949A39 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		6670C13E4A0FFDC1129586A851EB5ADD /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		6847C49EEA2C7BF7A0943715798D2AB7 /* Angle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Angle.swift; path = Sources/Units/Angle.swift; sourceTree = "<group>"; };
+		6C5C4F15F02CEEB087224C76FEA0D4E8 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		6D68798235EA069FC95D1851EDDC9DBE /* Adhan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Adhan-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7643A942AD454BA9597E3029CDA153C4 /* Adhan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Adhan.h; path = Sources/Adhan.h; sourceTree = "<group>"; };
+		7C6822F9EBC523BF5D0BFB10498DCF06 /* Qibla.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Qibla.swift; path = Sources/Qibla.swift; sourceTree = "<group>"; };
+		8164633C4B010A824D447F337BD3E6BD /* Pods-AthanToolTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AthanToolTests"; path = Pods_AthanToolTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8658DFDABEAB0FAAEAD9F89256E9D8C2 /* PrayerTimes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PrayerTimes.swift; path = Sources/PrayerTimes.swift; sourceTree = "<group>"; };
+		890A4BCD18C2D18A930908DEBD5F83B7 /* CalculationMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalculationMethod.swift; path = Sources/Models/CalculationMethod.swift; sourceTree = "<group>"; };
+		91C1D76258ACFC3515B1A8D7F53EEC85 /* Pods-AthanToolTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AthanToolTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		95E2B4907952813440A2355335BFA8E8 /* Madhab.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Madhab.swift; path = Sources/Models/Madhab.swift; sourceTree = "<group>"; };
+		9674ED9A8CDCCA3FF516C59C6716EFC7 /* Pods-AthanToolTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AthanToolTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9701436D86FA3EF05AA56DEB819CD399 /* Pods-AthanTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AthanTool-dummy.m"; sourceTree = "<group>"; };
+		99C96DDBF4043CE84257E7D78AB0944E /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0BDD08A6D1E1FFA45AD2336876A9E0 /* Pods-AthanTool-AthanToolUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AthanTool-AthanToolUITests-umbrella.h"; sourceTree = "<group>"; };
+		A05F19FABF1CB255BDC16F4BA466CC0A /* Adhan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Adhan-dummy.m"; sourceTree = "<group>"; };
+		A12F684B315D9EB2160852BFF599D396 /* Pods-AthanTool-AthanToolUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AthanTool-AthanToolUITests-frameworks.sh"; sourceTree = "<group>"; };
+		A81782864A8357F838A6FF0CD2C78845 /* Astronomical.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Astronomical.swift; path = Sources/Astronomy/Astronomical.swift; sourceTree = "<group>"; };
+		AC0FDDEF3659452B353C7C39DBCEF740 /* Pods-AthanToolTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AthanToolTests.modulemap"; sourceTree = "<group>"; };
+		AF0A8C5F6ECD4F09C906608F0027BADD /* Adhan */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Adhan; path = Adhan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2E3A73D83537AFAC8A445B1443C726E /* DateUtilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateUtilities.swift; path = Sources/Extensions/DateUtilities.swift; sourceTree = "<group>"; };
+		B491046BEEC77DAD22B9688C66D96916 /* Rouding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Rouding.swift; path = Sources/Models/Rouding.swift; sourceTree = "<group>"; };
+		C4A7AFDA850D833B1CA9A1BD88728230 /* Minute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Minute.swift; path = Sources/Units/Minute.swift; sourceTree = "<group>"; };
+		C57B7A6C2AEE04AE8A2B817438564F62 /* Adhan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Adhan.modulemap; sourceTree = "<group>"; };
+		CFBC728F4611569A5123EB3431E5E337 /* SolarCoordinates.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SolarCoordinates.swift; path = Sources/Astronomy/SolarCoordinates.swift; sourceTree = "<group>"; };
+		D411800ADCD9A721B7F64C0D364086EE /* Pods-AthanTool-AthanToolUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AthanTool-AthanToolUITests"; path = Pods_AthanTool_AthanToolUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD61FEE406CFF7A476927755FD2277F1 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		DDE22E29490E90DFF12F9D0896E92216 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		E27E24F34A117E2C179AFC7FC5F553B9 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		E4D218ED424A9D22C03550E4DC653539 /* Pods-AthanTool-AthanToolUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AthanTool-AthanToolUITests-dummy.m"; sourceTree = "<group>"; };
+		E65FE4577493DFEE2535719FD4DEE873 /* Adhan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adhan.release.xcconfig; sourceTree = "<group>"; };
+		E8592F8466063E52DF0851BDB91BD78B /* Pods-AthanToolTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AthanToolTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5DDAB200D94A4D40D3377DACF98C40 /* Pods-AthanTool-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AthanTool-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F6A431B4F33EC520059CC863C7B23C93 /* Pods-AthanTool-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AthanTool-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA83B1CA8E6C35AFDAFE5617B448C584 /* Pods-AthanTool-AthanToolUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AthanTool-AthanToolUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FCB544F375C1A2F3E482CE6B4DE6DC8C /* Pods-AthanTool-AthanToolUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AthanTool-AthanToolUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FA7C8FB561A16105AD8548CAF66C3B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0575921FA6F58BF55B928FEF61528A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D29A15C87D8A58D44609E362C1CDDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A953F4CD07401F472BB597586CE0986 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64ED2BBBC8308784FA1A64B8FE69C2F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AE0309281F23A3992C3C57FBA093DE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8554B748BB6433D570EA21FEF88F5F91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB613E73C66EA6EBDB290F5CD117332 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418BE22FF5818E6F30474D4AAD193B39 /* Pods-AthanTool */ = {
+			isa = PBXGroup;
+			children = (
+				368BC2234FD7BCCC6664A475B6C94C84 /* Pods-AthanTool.modulemap */,
+				EA5DDAB200D94A4D40D3377DACF98C40 /* Pods-AthanTool-acknowledgements.markdown */,
+				F6A431B4F33EC520059CC863C7B23C93 /* Pods-AthanTool-acknowledgements.plist */,
+				9701436D86FA3EF05AA56DEB819CD399 /* Pods-AthanTool-dummy.m */,
+				1AE5F532CBF958AF2C9324FB235F671D /* Pods-AthanTool-frameworks.sh */,
+				3778D118D789C1348CF2EB5892D2EF13 /* Pods-AthanTool-Info.plist */,
+				108557FB307BF3C2A1BEFBCC10E8BE4B /* Pods-AthanTool-umbrella.h */,
+				1CA0D32487BABE039AD5393692D7D1FD /* Pods-AthanTool.debug.xcconfig */,
+				4F1F24046616618185E7DE26A517E7E0 /* Pods-AthanTool.release.xcconfig */,
+			);
+			name = "Pods-AthanTool";
+			path = "Target Support Files/Pods-AthanTool";
+			sourceTree = "<group>";
+		};
+		46AA5AA23E7B772213369AC3A44AC94E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C5C4F15F02CEEB087224C76FEA0D4E8 /* DropDown.modulemap */,
+				206EBEA8B0932AB573E14754BCFEC961 /* DropDown-dummy.m */,
+				10B4EB628F0571A5FF5955388CA62AB5 /* DropDown-Info.plist */,
+				4429B90EB17B0BD4430F537EC569FD64 /* DropDown-prefix.pch */,
+				DD61FEE406CFF7A476927755FD2277F1 /* DropDown-umbrella.h */,
+				2E12D4D41DEFA7571171DA930DF13DB1 /* DropDown.debug.xcconfig */,
+				99C96DDBF4043CE84257E7D78AB0944E /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		5440C08AF487B9C300B6C0B9AD147FCC /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				6670C13E4A0FFDC1129586A851EB5ADD /* DPDConstants.swift */,
+				00B6B274FB04EEC83EBB1CC0A3E40681 /* DPDKeyboardListener.swift */,
+				0E5849DFC98D5D681A2920B27E10214F /* DPDUIView+Extension.swift */,
+				DDE22E29490E90DFF12F9D0896E92216 /* DropDown.swift */,
+				254BD849120419EBF52F313FE963600A /* DropDown+Appearance.swift */,
+				612588406A370C28E4C0119D1F949A39 /* DropDownCell.swift */,
+				C91C9E4AA6BB2422824B444FF56833E5 /* Resources */,
+				46AA5AA23E7B772213369AC3A44AC94E /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6767B00B76D77D12DE0BB397E50683B2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C57B7A6C2AEE04AE8A2B817438564F62 /* Adhan.modulemap */,
+				A05F19FABF1CB255BDC16F4BA466CC0A /* Adhan-dummy.m */,
+				6D68798235EA069FC95D1851EDDC9DBE /* Adhan-Info.plist */,
+				40543D87AAC4EF78F876ACD51CE4C077 /* Adhan-prefix.pch */,
+				41D43A70A3C229FE963EA3A1A070D76C /* Adhan-umbrella.h */,
+				512AE99AC3050ECDE9F8016995A47736 /* Adhan.debug.xcconfig */,
+				E65FE4577493DFEE2535719FD4DEE873 /* Adhan.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Adhan";
+			sourceTree = "<group>";
+		};
+		ABE510880B35EDBE621087043296CD0F /* Pods-AthanTool-AthanToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18CB1E7362220172875D08575F110CDE /* Pods-AthanTool-AthanToolUITests.modulemap */,
+				340EB13766BDC72F4243E9A3899EE030 /* Pods-AthanTool-AthanToolUITests-acknowledgements.markdown */,
+				FCB544F375C1A2F3E482CE6B4DE6DC8C /* Pods-AthanTool-AthanToolUITests-acknowledgements.plist */,
+				E4D218ED424A9D22C03550E4DC653539 /* Pods-AthanTool-AthanToolUITests-dummy.m */,
+				A12F684B315D9EB2160852BFF599D396 /* Pods-AthanTool-AthanToolUITests-frameworks.sh */,
+				5A27A013019F673578C5F52674D46D34 /* Pods-AthanTool-AthanToolUITests-Info.plist */,
+				9E0BDD08A6D1E1FFA45AD2336876A9E0 /* Pods-AthanTool-AthanToolUITests-umbrella.h */,
+				24AC7482B9C604753FA997CA2DDB6528 /* Pods-AthanTool-AthanToolUITests.debug.xcconfig */,
+				FA83B1CA8E6C35AFDAFE5617B448C584 /* Pods-AthanTool-AthanToolUITests.release.xcconfig */,
+			);
+			name = "Pods-AthanTool-AthanToolUITests";
+			path = "Target Support Files/Pods-AthanTool-AthanToolUITests";
+			sourceTree = "<group>";
+		};
+		ADCC3182442581E399FB3D3ECC19B47E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F03F48B70A911648412E27EF226FFF54 /* Adhan */,
+				5440C08AF487B9C300B6C0B9AD147FCC /* DropDown */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C91C9E4AA6BB2422824B444FF56833E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E27E24F34A117E2C179AFC7FC5F553B9 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CD7B6184DB977FC6DA97ADAE1076826A /* Pods-AthanToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0FDDEF3659452B353C7C39DBCEF740 /* Pods-AthanToolTests.modulemap */,
+				9674ED9A8CDCCA3FF516C59C6716EFC7 /* Pods-AthanToolTests-acknowledgements.markdown */,
+				91C1D76258ACFC3515B1A8D7F53EEC85 /* Pods-AthanToolTests-acknowledgements.plist */,
+				5A484191C58C7A28D0B38211E4E9BA9F /* Pods-AthanToolTests-dummy.m */,
+				2949A9980C149970465EC7975A41D41D /* Pods-AthanToolTests-Info.plist */,
+				3647B647B2A40C48642F6E52E5A5B3CF /* Pods-AthanToolTests-umbrella.h */,
+				E8592F8466063E52DF0851BDB91BD78B /* Pods-AthanToolTests.debug.xcconfig */,
+				5FCE0F170C9CBA40DCB057E2C1574B0E /* Pods-AthanToolTests.release.xcconfig */,
+			);
+			name = "Pods-AthanToolTests";
+			path = "Target Support Files/Pods-AthanToolTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				ADCC3182442581E399FB3D3ECC19B47E /* Pods */,
+				E84988BAD53659F4AB1FB57223A915F4 /* Products */,
+				F5116BAFFF71337E971097B47ADD9ADE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E84988BAD53659F4AB1FB57223A915F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF0A8C5F6ECD4F09C906608F0027BADD /* Adhan */,
+				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
+				0400438B9B4FFE3F553FBB1964032E31 /* Pods-AthanTool */,
+				D411800ADCD9A721B7F64C0D364086EE /* Pods-AthanTool-AthanToolUITests */,
+				8164633C4B010A824D447F337BD3E6BD /* Pods-AthanToolTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F03F48B70A911648412E27EF226FFF54 /* Adhan */ = {
+			isa = PBXGroup;
+			children = (
+				7643A942AD454BA9597E3029CDA153C4 /* Adhan.h */,
+				4719AB7A8C9B6C978679A4D65EBE8498 /* AdhanObjc.swift */,
+				6847C49EEA2C7BF7A0943715798D2AB7 /* Angle.swift */,
+				A81782864A8357F838A6FF0CD2C78845 /* Astronomical.swift */,
+				890A4BCD18C2D18A930908DEBD5F83B7 /* CalculationMethod.swift */,
+				21D1EBF4333B7E92E1FCBE28C376D32E /* CalculationParameters.swift */,
+				425FCABE498B584768B2D7F983769EC9 /* Coordinates.swift */,
+				B2E3A73D83537AFAC8A445B1443C726E /* DateUtilities.swift */,
+				262703F240799386DFD45B8C6A1E44D7 /* HighLatitudeRule.swift */,
+				95E2B4907952813440A2355335BFA8E8 /* Madhab.swift */,
+				3480913D01C2B8353FD5A881478F83DE /* MathUtilities.swift */,
+				C4A7AFDA850D833B1CA9A1BD88728230 /* Minute.swift */,
+				095FF539042BA5635B020DE58A1653E5 /* Prayer.swift */,
+				159D50092D6444F6A4E3214B36EB7CE7 /* PrayerAdjustment.swift */,
+				8658DFDABEAB0FAAEAD9F89256E9D8C2 /* PrayerTimes.swift */,
+				7C6822F9EBC523BF5D0BFB10498DCF06 /* Qibla.swift */,
+				B491046BEEC77DAD22B9688C66D96916 /* Rouding.swift */,
+				CFBC728F4611569A5123EB3431E5E337 /* SolarCoordinates.swift */,
+				1B718B22217EDE66392F36185A278652 /* SolarTime.swift */,
+				006B9E738E82126852A5AED2810BD586 /* SunnahTimes.swift */,
+				6767B00B76D77D12DE0BB397E50683B2 /* Support Files */,
+			);
+			name = Adhan;
+			path = Adhan;
+			sourceTree = "<group>";
+		};
+		F5116BAFFF71337E971097B47ADD9ADE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				418BE22FF5818E6F30474D4AAD193B39 /* Pods-AthanTool */,
+				ABE510880B35EDBE621087043296CD0F /* Pods-AthanTool-AthanToolUITests */,
+				CD7B6184DB977FC6DA97ADAE1076826A /* Pods-AthanToolTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		363001086920B14955D67525E212E306 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCE965DC5E028D3DFC29E167D72D52B8 /* Adhan.h in Headers */,
+				2F58248DCA7DDAAC6DBF25AB72C51F7B /* Adhan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7181BA25938E6FACC8CA6CFB33BFFF36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0907ED2981621B18E4DF2F52FC237B5B /* Pods-AthanTool-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CE91431E229797751455423C79CA4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA159B03612F2D3D7B55FFCDBCD943FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DE0145DA7030DD98361DAD0B2562AB /* Pods-AthanTool-AthanToolUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F483DD786FE7C6AA5480536AF2852B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6DCC849E41E0E949FE254A0D53604E /* Pods-AthanToolTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D421FDD5891ACF9035222F7632D1551 /* Pods-AthanTool-AthanToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA650F916F9B99EF8382C9D7161BC3A6 /* Build configuration list for PBXNativeTarget "Pods-AthanTool-AthanToolUITests" */;
+			buildPhases = (
+				AA159B03612F2D3D7B55FFCDBCD943FA /* Headers */,
+				6ADAFB3D685C2205A782591A44AF7A48 /* Sources */,
+				1FA7C8FB561A16105AD8548CAF66C3B3 /* Frameworks */,
+				23E2189885C0F5AF3BDCA29BD68504AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C5B6450224181EB7610F4256BEFEF63 /* PBXTargetDependency */,
+				E70C28CC17DAFB91BE5C023AC8BBB2AE /* PBXTargetDependency */,
+			);
+			name = "Pods-AthanTool-AthanToolUITests";
+			productName = Pods_AthanTool_AthanToolUITests;
+			productReference = D411800ADCD9A721B7F64C0D364086EE /* Pods-AthanTool-AthanToolUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A675C9A75A921FB0C4EE1768AF4DCB4 /* Pods-AthanToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62A332D92546657C2D2DEC4BD4FE6724 /* Build configuration list for PBXNativeTarget "Pods-AthanToolTests" */;
+			buildPhases = (
+				D5F483DD786FE7C6AA5480536AF2852B /* Headers */,
+				66BD7B4B59C00F19CFABAD097B422421 /* Sources */,
+				8554B748BB6433D570EA21FEF88F5F91 /* Frameworks */,
+				2B0D1BDBD33A3C853AEB961B963FF62F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E2E320FA423BBBAE022DFECB60C64C6 /* PBXTargetDependency */,
+			);
+			name = "Pods-AthanToolTests";
+			productName = Pods_AthanToolTests;
+			productReference = 8164633C4B010A824D447F337BD3E6BD /* Pods-AthanToolTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		900757526FE4A2BEDDB340ECD38A8D5C /* Pods-AthanTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C224D2D9CEFF8299391BED8AAB9A5884 /* Build configuration list for PBXNativeTarget "Pods-AthanTool" */;
+			buildPhases = (
+				7181BA25938E6FACC8CA6CFB33BFFF36 /* Headers */,
+				FB7780731C565C74EB98F0A206BD59B9 /* Sources */,
+				64ED2BBBC8308784FA1A64B8FE69C2F4 /* Frameworks */,
+				0DA3C3755E21B0DDB11299956F712A88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				576B0F88558F76F3290A5950B6899DB0 /* PBXTargetDependency */,
+				D22F8A214CE4EC6F9FD8D824861BDE09 /* PBXTargetDependency */,
+			);
+			name = "Pods-AthanTool";
+			productName = Pods_AthanTool;
+			productReference = 0400438B9B4FFE3F553FBB1964032E31 /* Pods-AthanTool */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9B1253A540696DA809B405BCB6B5D89 /* Adhan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8567FD79E031FC6BAF79FC26E60BA618 /* Build configuration list for PBXNativeTarget "Adhan" */;
+			buildPhases = (
+				363001086920B14955D67525E212E306 /* Headers */,
+				8816350714B85EF46BC0B9DA089655BF /* Sources */,
+				2D29A15C87D8A58D44609E362C1CDDD1 /* Frameworks */,
+				A6199332604B4E0356534E6AF09C0E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Adhan;
+			productName = Adhan;
+			productReference = AF0A8C5F6ECD4F09C906608F0027BADD /* Adhan */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				97CE91431E229797751455423C79CA4F /* Headers */,
+				48864C435B3DB37698CF568C638CF98F /* Sources */,
+				808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */,
+				EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E84988BAD53659F4AB1FB57223A915F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B1253A540696DA809B405BCB6B5D89 /* Adhan */,
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				900757526FE4A2BEDDB340ECD38A8D5C /* Pods-AthanTool */,
+				3D421FDD5891ACF9035222F7632D1551 /* Pods-AthanTool-AthanToolUITests */,
+				7A675C9A75A921FB0C4EE1768AF4DCB4 /* Pods-AthanToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DA3C3755E21B0DDB11299956F712A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23E2189885C0F5AF3BDCA29BD68504AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B0D1BDBD33A3C853AEB961B963FF62F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6199332604B4E0356534E6AF09C0E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48864C435B3DB37698CF568C638CF98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */,
+				89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */,
+				B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */,
+				84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */,
+				515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */,
+				907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */,
+				BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66BD7B4B59C00F19CFABAD097B422421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				017B5AC5C47DF8E7D646CA588A0C534F /* Pods-AthanToolTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADAFB3D685C2205A782591A44AF7A48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00B437AAF78E400E599197CA3BC00DD /* Pods-AthanTool-AthanToolUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8816350714B85EF46BC0B9DA089655BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A29616C11BFFA738B975C2A24CFC247 /* Adhan-dummy.m in Sources */,
+				9EFE34F3C6B2A419F6D1406BFE798087 /* AdhanObjc.swift in Sources */,
+				7E5E873CFB48F72909D76B985F57E182 /* Angle.swift in Sources */,
+				9BD72183D479D4704488D36C26B9E8D4 /* Astronomical.swift in Sources */,
+				3BDDF6D7F2587590C16BF5EBD712CD17 /* CalculationMethod.swift in Sources */,
+				56DACDECD35B45D01D60291ED886F13D /* CalculationParameters.swift in Sources */,
+				6B822FAC134A92A1C8AFA722A91BAEDF /* Coordinates.swift in Sources */,
+				4E29A0498CD97778789A7F27F45A5124 /* DateUtilities.swift in Sources */,
+				3AD15647D107F02752014CACDEA9BA08 /* HighLatitudeRule.swift in Sources */,
+				8373BAC7F692ADF409BB985E99EE38F4 /* Madhab.swift in Sources */,
+				DD11195E67AB848595BDDF58D6735382 /* MathUtilities.swift in Sources */,
+				C7E28792927A849EED556F563FC1B677 /* Minute.swift in Sources */,
+				7CE4DE3EFDF072E2D7059C96657A094E /* Prayer.swift in Sources */,
+				F7928DF694220E42B1EE0FA2FA7F4D60 /* PrayerAdjustment.swift in Sources */,
+				C51E88847910552C75D187B54315A12A /* PrayerTimes.swift in Sources */,
+				51CDC30623702395975EC8C36AAB7D7E /* Qibla.swift in Sources */,
+				6CCDF8BA9FC363FFB91982D3C635DF08 /* Rouding.swift in Sources */,
+				CE4B72892DAAF2A0A7405EE3B7B2EEB4 /* SolarCoordinates.swift in Sources */,
+				AF743BFA049FE0ADE61B42EC97946676 /* SolarTime.swift in Sources */,
+				2880987D91506CACD5951D774C713618 /* SunnahTimes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB7780731C565C74EB98F0A206BD59B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BDE7ECAE7414DC24194474FF8ADCDFC /* Pods-AthanTool-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C5B6450224181EB7610F4256BEFEF63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Adhan;
+			target = A9B1253A540696DA809B405BCB6B5D89 /* Adhan */;
+			targetProxy = C9751473CE4DBB79AACB4CFD61DF2C83 /* PBXContainerItemProxy */;
+		};
+		3E2E320FA423BBBAE022DFECB60C64C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AthanTool";
+			target = 900757526FE4A2BEDDB340ECD38A8D5C /* Pods-AthanTool */;
+			targetProxy = 3A5AC9077E42D3D8C2AAA28C47D717FC /* PBXContainerItemProxy */;
+		};
+		576B0F88558F76F3290A5950B6899DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Adhan;
+			target = A9B1253A540696DA809B405BCB6B5D89 /* Adhan */;
+			targetProxy = 2D908BA6FAD44E98E249A1074383420E /* PBXContainerItemProxy */;
+		};
+		D22F8A214CE4EC6F9FD8D824861BDE09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 5EAF436A3928189F9DCCC298DD8301D2 /* PBXContainerItemProxy */;
+		};
+		E70C28CC17DAFB91BE5C023AC8BBB2AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = B682BB31F99F68EA7B3DE3D263149DC9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26DF206506E0DD8DD011805E2AE32113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FCE0F170C9CBA40DCB057E2C1574B0E /* Pods-AthanToolTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AthanToolTests/Pods-AthanToolTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AthanToolTests/Pods-AthanToolTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		58F49EC67AD6DFE68B1C69A7D17164EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA0D32487BABE039AD5393692D7D1FD /* Pods-AthanTool.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AthanTool/Pods-AthanTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AthanTool/Pods-AthanTool.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		694AAC5913DE148BADEB86C628936B3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F1F24046616618185E7DE26A517E7E0 /* Pods-AthanTool.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AthanTool/Pods-AthanTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AthanTool/Pods-AthanTool.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69A17DC1751F53EF1817AF05C506956E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65FE4577493DFEE2535719FD4DEE873 /* Adhan.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Adhan/Adhan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Adhan/Adhan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Adhan/Adhan.modulemap";
+				PRODUCT_MODULE_NAME = Adhan;
+				PRODUCT_NAME = Adhan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		791E159B85841F649592D6A30B8B0E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 512AE99AC3050ECDE9F8016995A47736 /* Adhan.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Adhan/Adhan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Adhan/Adhan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Adhan/Adhan.modulemap";
+				PRODUCT_MODULE_NAME = Adhan;
+				PRODUCT_NAME = Adhan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A4BA14C81A490D463860B2408CF45235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8592F8466063E52DF0851BDB91BD78B /* Pods-AthanToolTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AthanToolTests/Pods-AthanToolTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AthanToolTests/Pods-AthanToolTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C24518E891FAA59668669823639498EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C96DDBF4043CE84257E7D78AB0944E /* DropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E12D4D41DEFA7571171DA930DF13DB1 /* DropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F45B9D91DAC6B0093C3D0F0A4CF08835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA83B1CA8E6C35AFDAFE5617B448C584 /* Pods-AthanTool-AthanToolUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AthanTool-AthanToolUITests/Pods-AthanTool-AthanToolUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AthanTool-AthanToolUITests/Pods-AthanTool-AthanToolUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FCF39ADBB1129B927DCF0CCA09FDAE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AC7482B9C604753FA997CA2DDB6528 /* Pods-AthanTool-AthanToolUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AthanTool-AthanToolUITests/Pods-AthanTool-AthanToolUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AthanTool-AthanToolUITests/Pods-AthanTool-AthanToolUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */,
+				C24518E891FAA59668669823639498EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62A332D92546657C2D2DEC4BD4FE6724 /* Build configuration list for PBXNativeTarget "Pods-AthanToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BA14C81A490D463860B2408CF45235 /* Debug */,
+				26DF206506E0DD8DD011805E2AE32113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8567FD79E031FC6BAF79FC26E60BA618 /* Build configuration list for PBXNativeTarget "Adhan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791E159B85841F649592D6A30B8B0E71 /* Debug */,
+				69A17DC1751F53EF1817AF05C506956E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C224D2D9CEFF8299391BED8AAB9A5884 /* Build configuration list for PBXNativeTarget "Pods-AthanTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58F49EC67AD6DFE68B1C69A7D17164EC /* Debug */,
+				694AAC5913DE148BADEB86C628936B3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA650F916F9B99EF8382C9D7161BC3A6 /* Build configuration list for PBXNativeTarget "Pods-AthanTool-AthanToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCF39ADBB1129B927DCF0CCA09FDAE25 /* Debug */,
+				F45B9D91DAC6B0093C3D0F0A4CF08835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
