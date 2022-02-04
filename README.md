@@ -26,8 +26,8 @@ Over the past 1.5 years, I developed an iOS Application that utilizes many aspec
 
 ## Gallery
 
-<img src="newImages/1.png" height="400"> <img src="newImages/2.png" height="400">
-<img src="newImages/3.png" height="400">
-<img src="newImages//4.png" height="400">
+<img src="newImages/1.jpg" height="400"> <img src="newImages/2.jpg" height="400">
+<img src="newImages/3.jpg" height="400">
+<img src="newImages//4.jpg" height="400">
 
 
