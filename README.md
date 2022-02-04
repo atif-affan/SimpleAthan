@@ -1,6 +1,7 @@
 # Simple Athan
 
-## Link to Simple Athan on the iOS App Store: [Simple Athan](www.apps.apple.com/us/app/simple-athan/id1594780073?itsct=apps_box_link&itscg=30200)
+## Link to Simple Athan on the iOS App Store
+apps.apple.com/us/app/simple-athan/id1594780073?itsct=apps_box_link&itscg=30200
 
 ### ​Welcome!
 ​
