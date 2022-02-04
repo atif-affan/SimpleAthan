@@ -8,4 +8,4 @@ Over the past 1.5 years, I developed an iOS Application that utilizes many aspec
 
 
 ## Current Features Include:
--Elegant main screen UI which highlights current day's prayer times
+- Elegant main screen UI which highlights current day's prayer times
