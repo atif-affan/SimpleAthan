@@ -23,3 +23,6 @@ Over the past 1.5 years, I developed an iOS Application that utilizes many aspec
 - Reset all options to default configuration
 - Simplistic and sleek UI designs across the App
 - Absolutely zero data collection or ads anywhere within the App
+
+## Gallery
+![](newImages_V2/1.png)
