@@ -7,3 +7,5 @@
 Over the past 1.5 years, I developed an iOS Application that utilizes many aspects of engineering concepts to create a dynamic user experience for all. This app uses geolocation services, API retrievals, WidgetKit, and custom algorithms to provide accurate data for users located anywhere in the United States. 
 
 
+## Current Features Include:
+-Elegant main screen UI which highlights current day's prayer times
