@@ -27,5 +27,8 @@ Over the past 1.5 years, I developed an iOS Application that utilizes many aspec
 ## Gallery
 
 <img src="newImages_V2/1.png" width="150">
+<img src="newImages_V2/2.png" width="150">
+<img src="newImages_V2/3.png" width="150">
+<img src="newImages_V2/4.png" width="150">
 
-![](newImages_V2/1.png)
+
